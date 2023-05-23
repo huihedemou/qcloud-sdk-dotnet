@@ -57,7 +57,7 @@ namespace COSXML.Model.Tag
         public Dictionary<string, string> headers;
 
         /// <summary>
-        /// 签名 sign的有效期，若 小于 0，则取keyTime.
+        /// 签名 sign的有效期，若 小于 0，则取keyTime;signDurationSecond<=keyTime
         /// </summary>
         public long signDurationSecond;
 
